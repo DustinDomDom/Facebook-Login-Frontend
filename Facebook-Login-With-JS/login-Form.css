@@ -1,0 +1,150 @@
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.login-container{
+    width: 396px;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-text{
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.facebook-logo{
+    padding-bottom: 16px;
+    line-height: 16px;
+}
+
+.facebook-image{
+    height: 106px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin: -28px;
+ }
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.Email,
+.Password{
+    width: 330px;
+    height: 22px;
+    padding: 14px 16px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: content-box;
+ }
+
+.email-bar,
+.password-bar,
+ .login-bar{
+    padding-top: 6px;
+    padding-bottom: 6px;
+ }
+
+.login-button{
+    width: 332px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    line-height: 48px;
+
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    box-sizing: content-box;
+
+    cursor: pointer;
+ }
+
+.forgot-bar{
+    margin-top: 16px;
+}
+
+.forgot-password-text{
+    color: #1877f2;
+
+    font-size: 14px;
+
+    cursor: pointer;
+ }
+ 
+ .forgot-password-text:hover{
+    text-decoration: underline;
+ }
+ 
+
+ hr.solid {
+    border-top: 0.1px solid lightgray;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+ .create-button{
+    background-color: rgb(66, 183, 42);
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    padding: 16px;
+
+    border: none;
+    border-radius: 6px;
+
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+ }
+
+.create-page-text{
+    font-size: 14px;
+    margin-top: 28px;
+}
+
+.create-button:hover{
+    filter: brightness(90%)
+}
+
+.bold-text{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bold-text:hover{
+    text-decoration: underline;
+ }
+
+
+
